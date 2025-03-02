@@ -1,1 +1,49 @@
-/* место для вашего кода */
+.body {
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+.header {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 140px) 1fr;
+    max-width: 1052px;
+    width: 100%;
+    margin-top: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 26px;
+    padding-right: 25px;
+    margin-bottom: 96px;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    aspect-ratio: 148 / 105;
+    height: 100%;
+    width: 148px;
+}
+
+.header__logo-image {
+    aspect-ratio: 148 / 105;
+    height: 105px;
+    width: 148px;
+    object-fit: contain;
+}
+
+.header__link {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.header__link_active {
+    text-decoration: none;
+}
