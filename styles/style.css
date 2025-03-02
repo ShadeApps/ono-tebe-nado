@@ -23,6 +23,21 @@
     align-items: flex-start;
 }
 
+.header__links-list {
+    display: flex;
+    column-gap: 13px;
+    list-style: circle;
+    list-style-position: inside;
+}
+
+.header__links-list-item {
+    font-size: 18px;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
 .header__logo {
     display: flex;
     justify-content: center;
@@ -46,4 +61,20 @@
 
 .header__link_active {
     text-decoration: none;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    width: 100%;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.header__address {
+    place-self: end;
+    justify-content: center;
 }
