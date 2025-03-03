@@ -105,7 +105,7 @@
   min-height: 757px;
   max-width: 1100px;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    center / cover no-repeat url("/images/cover.jpg");
+    center / cover no-repeat url("../images/cover.jpg");
 }
 
 .cover__title {
