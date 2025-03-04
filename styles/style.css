@@ -95,7 +95,7 @@
   line-height: 24px;
 }
 
-.header__address {
+.address__container {
   place-self: end;
   justify-content: center;
 }
