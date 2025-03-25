@@ -186,24 +186,6 @@
   word-spacing: 18px;
 }
 
-.cover__promo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 78px;
-  padding-right: 50px;
-}
-
-.cover__promo_text {
-  font-size: 22px;
-  font-weight: normal;
-  color: #fff;
-  line-height: 28px;
-  text-transform: uppercase;
-  white-space-collapse: collapse;
-  word-spacing: 0.9em;
-}
-
 .cover__promo_button {
   padding-left: 31px;
   padding-top: 12px;
@@ -221,11 +203,7 @@
   cursor: pointer;
 }
 
-.letter-spacing-extended {
-  letter-spacing: 60px;
-}
-
-.no-letter-spacing {
+.remove-spacing {
   letter-spacing: normal;
 }
 
